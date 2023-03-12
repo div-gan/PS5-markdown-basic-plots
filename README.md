@@ -6,6 +6,7 @@ ment with an appropriate title. See https://faculty.washington.edu/otoomet/info2
 r-markdown.html#r-markdown-rstudio-creating.
 2. (2pt) Load data. How many rows/columns do we have?
 3. (2pt) Print a small sample of data. Does it look OK?
+
 2 Descriptive statistics (15pt)
 1. (3pt) How many countries are there in the dataset? Analyze all three: iso3, iso2 and name.
 2. If you did this correctly, you saw that there are more names than iso-2 codes, and there are
@@ -16,7 +17,8 @@ correspond to more than one name? What are these countries?
 more than one iso3-code? What are these countries?
 Hint: two of these entitites are CHANISL and NLD CURACAO.
 3. (2pt) What is the minimum and maximum year in these data?
-2
+
+
 3 CO2 emissions (30pt)
 Next, let’s analyze CO2 emissions.
 1. (2pt) How many missing co2 emissions are there for each year? Analyze both missing CO2
@@ -44,6 +46,7 @@ Year
 2016
 6. Which countries are the three largest, and three smallest CO2 emitters (in terms of CO2 per
 capita) in 2019 for each continent? (Assume region is continent).
+
 4 GDP per capita (50pt)
 Let’s look at GDP per capita (GDP_PC ).
 1. (8pt) Make a scatterplot of GDP per capita versus life expectancy by country, using data for
@@ -51,7 +54,7 @@ Let’s look at GDP per capita (GDP_PC ).
 continent. Feel free to adjust the plot in other ways to make it better.
 Comment what do you see there.
 2. (4pt) Make a similar plot, but this time use 2019 data only.
-3
+
 3. (6pt) Compare these two plots and comment what do you see. How has world developed
 through the last 60 years?
 4. (6pt) Compute the average life expectancy for each continent in 1960 and 2019. Do the results
@@ -75,4 +78,3 @@ bit. But we also have more countries in 2019–what about the relative rank divi
 corresponding number of countries that have LE data in the corresponding year?
 Hint: 0.0904 for 1960.
 Finally tell us how many hours did you spend on this PS.
-4
